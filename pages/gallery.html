@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - Discover Italy</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../homepage.html">
+                    <span class="logo-icon">🇮🇹</span>
+                    <span class="logo-text">Discover Italy</span>
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../homepage.html" class="nav-link">Home</a></li>
+                <li><a href="tourist-locations.html" class="nav-link">Tourist Locations</a></li>
+                <li><a href="historic-places.html" class="nav-link">Historic Places</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="culture.html" class="nav-link">Culture</a></li>
+                <li><a href="geography.html" class="nav-link">Geography</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Photo Gallery</h1>
+                <p>Explore the beauty of Italy through stunning photographs. Click any image to view it in full size.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="gallery-grid">
+
+                    <!-- Gallery Item 1 - Rome Colosseum -->
+                    <div class="gallery-item" data-caption="The Colosseum at golden hour, Rome">
+                        <img src="../images/gallery/colosseum.jpg" alt="The Colosseum at golden hour, Rome" onerror="this.src='https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>The Colosseum, Rome</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2 - Venice Canals -->
+                    <div class="gallery-item" data-caption="Gondolas on the Grand Canal, Venice">
+                        <img src="../images/gallery/venice-canal.jpg" alt="Gondolas on the Grand Canal, Venice" onerror="this.src='https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Grand Canal, Venice</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3 - Florence Duomo -->
+                    <div class="gallery-item" data-caption="The Florence Cathedral and Brunelleschi's Dome">
+                        <img src="../images/gallery/florence-duomo.jpg" alt="The Florence Cathedral and Brunelleschi's Dome" onerror="this.src='https://images.unsplash.com/photo-1541370976299-4d24ebbc9077?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Florence Duomo</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 4 - Amalfi Coast -->
+                    <div class="gallery-item" data-caption="Positano village on the Amalfi Coast">
+                        <img src="../images/gallery/positano.jpg" alt="Positano village on the Amalfi Coast" onerror="this.src='https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Positano, Amalfi Coast</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 5 - Cinque Terre -->
+                    <div class="gallery-item" data-caption="Colorful houses of Manarola, Cinque Terre">
+                        <img src="../images/gallery/manarola.jpg" alt="Colorful houses of Manarola, Cinque Terre" onerror="this.src='https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Manarola, Cinque Terre</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 6 - Tuscan Countryside -->
+                    <div class="gallery-item" data-caption="Rolling hills and cypress trees of Tuscany">
+                        <img src="../images/gallery/tuscany.jpg" alt="Rolling hills and cypress trees of Tuscany" onerror="this.src='https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Tuscan Countryside</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 7 - Lake Como -->
+                    <div class="gallery-item" data-caption="Bellagio on Lake Como at sunset">
+                        <img src="../images/gallery/lake-como.jpg" alt="Bellagio on Lake Como at sunset" onerror="this.src='https://images.unsplash.com/photo-1553342385-111fd6bc6ab3?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Lake Como</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 8 - Vatican -->
+                    <div class="gallery-item" data-caption="St. Peter's Basilica and Square, Vatican City">
+                        <img src="../images/gallery/vatican.jpg" alt="St. Peter's Basilica and Square, Vatican City" onerror="this.src='https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Vatican City</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 9 - Milan Cathedral -->
+                    <div class="gallery-item" data-caption="The stunning Gothic Milan Cathedral (Duomo di Milano)">
+                        <img src="../images/gallery/milan-duomo.jpg" alt="The stunning Gothic Milan Cathedral" onerror="this.src='https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Milan Cathedral</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 10 - Pisa -->
+                    <div class="gallery-item" data-caption="The Leaning Tower of Pisa and Cathedral">
+                        <img src="../images/gallery/pisa.jpg" alt="The Leaning Tower of Pisa and Cathedral" onerror="this.src='https://images.unsplash.com/photo-1544979590-37e9b47eb705?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Tower of Pisa</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 11 - Sicily -->
+                    <div class="gallery-item" data-caption="Taormina with Mount Etna in the background">
+                        <img src="../images/gallery/taormina.jpg" alt="Taormina with Mount Etna in the background" onerror="this.src='https://images.unsplash.com/photo-1498307833015-e7b400441eb8?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Taormina, Sicily</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 12 - Italian Food -->
+                    <div class="gallery-item" data-caption="Traditional Italian pizza fresh from the oven">
+                        <img src="../images/gallery/italian-pizza.jpg" alt="Traditional Italian pizza fresh from the oven" onerror="this.src='https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Italian Pizza</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 13 - Trevi Fountain -->
+                    <div class="gallery-item" data-caption="The magnificent Trevi Fountain in Rome">
+                        <img src="../images/gallery/trevi-fountain.jpg" alt="The magnificent Trevi Fountain in Rome" onerror="this.src='https://images.unsplash.com/photo-1525874684015-58379d421a52?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Trevi Fountain, Rome</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 14 - Dolomites -->
+                    <div class="gallery-item" data-caption="The majestic Dolomite Mountains at sunrise">
+                        <img src="../images/gallery/dolomites.jpg" alt="The majestic Dolomite Mountains at sunrise" onerror="this.src='https://images.unsplash.com/photo-1586595336227-4e4c9f4f1946?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>The Dolomites</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 15 - Venice Bridge -->
+                    <div class="gallery-item" data-caption="Rialto Bridge spanning the Grand Canal, Venice">
+                        <img src="../images/gallery/rialto-bridge.jpg" alt="Rialto Bridge spanning the Grand Canal, Venice" onerror="this.src='https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Rialto Bridge, Venice</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 16 - Pompeii -->
+                    <div class="gallery-item" data-caption="Ancient ruins of Pompeii with Vesuvius">
+                        <img src="../images/gallery/pompeii.jpg" alt="Ancient ruins of Pompeii with Vesuvius" onerror="this.src='https://images.unsplash.com/photo-1562711899-5c0f2a7f4920?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Pompeii Ruins</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 17 - Siena -->
+                    <div class="gallery-item" data-caption="Piazza del Campo in the heart of Siena">
+                        <img src="../images/gallery/siena.jpg" alt="Piazza del Campo in the heart of Siena" onerror="this.src='https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Siena, Tuscany</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 18 - Italian Gelato -->
+                    <div class="gallery-item" data-caption="Colorful artisan gelato in an Italian gelateria">
+                        <img src="../images/gallery/gelato.jpg" alt="Colorful artisan gelato in an Italian gelateria" onerror="this.src='https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600&q=80'">
+                        <div class="gallery-item-overlay">
+                            <p>Italian Gelato</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <!-- Pagination buttons will be generated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&#10094;</button>
+            <img src="" alt="Full size image">
+            <button class="lightbox-nav lightbox-next" aria-label="Next image">&#10095;</button>
+            <p class="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Discover Italy</h4>
+                    <p>Your comprehensive guide to experiencing the best of Italian culture, history, and hospitality.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="tourist-locations.html">Tourist Locations</a></li>
+                        <li><a href="historic-places.html">Historic Places</a></li>
+                        <li><a href="gallery.html">Photo Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Learn More</h4>
+                    <ul>
+                        <li><a href="culture.html">Italian Culture</a></li>
+                        <li><a href="geography.html">Geography</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Discover Italy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
